@@ -1,5 +1,5 @@
-@import url(font-awesome.min.css);
 
+@import url(font-awesome.min.css);
 /*
 	Hyperspace by HTML5 UP
 	html5up.net | @ajlkn
@@ -29,7 +29,12 @@ footer, header, hgroup, menu, nav, section {
 	display: block;}
 
 
-
+@font-face {
+	font-family: 'Product Sans';
+	font-style: normal;
+	font-weight: 400;
+	src: local('Open Sans'), local('OpenSans'), url(https://fonts.gstatic.com/s/productsans/v5/HYvgU2fE2nRJvZ5JFAumwegdm0LZdjqr5-oayXSOefg.woff2) format('woff2');
+	}
 
 body {
 	line-height: 1;
@@ -123,10 +128,15 @@ input, select, textarea {
 		}
 
 /* Type */
-
+	
 	body, input, select, textarea {
 		color: rgba(0, 0, 0, 0.55);
-		font-family: Arial, Helvetica, sans-serif;
+		/*font-family: Arial, Helvetica, sans-serif;
+		font-family:'FontAwesome';
+		src:url('../fonts/product-sans/regular.ttf');*/
+		font-family: 'Product Sans';
+		font-style: normal;
+		src: local('Open Sans'), local('OpenSans'), url(https://fonts.gstatic.com/s/productsans/v5/HYvgU2fE2nRJvZ5JFAumwegdm0LZdjqr5-oayXSOefg.woff2) format('woff2');
 		font-size: 16.5pt;
 		font-weight: normal;
 		line-height: 1.75;
